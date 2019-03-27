@@ -110,7 +110,7 @@ namespace StarChartTests
         }
 
         [Fact(DisplayName = "Create GetAll Action @create-getall-action")]
-@D        public void CreateGetAllActionTest()
+        public void CreateGetAllActionTest()
         {
             var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "StarChart" + Path.DirectorySeparatorChar + "Controllers" + Path.DirectorySeparatorChar + "CelestialObjectController.cs";
             Assert.True(File.Exists(filePath), "`CelestialObjectController.cs` was not found in the `Controllers` directory.");
